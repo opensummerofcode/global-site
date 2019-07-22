@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `open Summer of Code`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     menuLinks:[
@@ -9,9 +9,17 @@ module.exports = {
                link:'/'
             },
             {
-               name:'page2',
+               name:'About',
                link:'/page-2'
-            }
+            },
+            {
+              name:'Take a look!',
+              link:'/page-2'
+           },
+           {
+            name:'Contact',
+            link:'/page-2'
+         }
           ]
   },
   plugins: [
