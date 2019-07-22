@@ -1,8 +1,18 @@
 .landingPage{
-    height: 90vh;
+    min-height: 70vh;
     background: pink;
+    padding: 5vh 2rem;
 }
 
 header {
-    background: #000;
+    background: #FFF;
+}
+
+.logo img {
+    width: 5rem;
+    display: block;
+}
+
+nav ul li a{
+    text-decoration: none;
 }

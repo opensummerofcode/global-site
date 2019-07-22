@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
+import Logo from "../images/logo-osoc-color.svg"
 const Header = ({ siteTitle, menuLinks }) => (
   <header>
     <div
@@ -12,17 +12,14 @@ const Header = ({ siteTitle, menuLinks }) => (
         
       }}
     >
-      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          className="logo"
         >
-          {siteTitle} 
+          <img src={Logo} alt="open summer of code logo, very abstract, fun but professional" / > 
         </Link>
-      </h1>
+
+
       <div>
           <nav>
             <ul style={{ display: "flex", flex: 1 }}>
@@ -34,7 +31,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                     padding: `1rem`,
                   }}
                 >
-                  <Link style={{ color: `white` }} to={link.link}>
+                  <Link style={{ color: `BLACK` }} to={link.link}>
                     {link.name}
                   </Link>
                 </li>

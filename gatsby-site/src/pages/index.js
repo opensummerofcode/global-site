@@ -2,21 +2,41 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="landingPage">
-      <h1>open Summer of Code is going international!</h1>
-      <p>New chapters or something</p>
-      <p>yeay, fun!</p>
+      <h1>open Summer of code is going international!</h1>
+      <p>We are going for even</p>
+      <ul>
+        <li>
+          More chapters
+        </li>
+        <li>
+          More talent
+        </li>
+        <li> 
+          And even more open source projects!
+        </li>
+      </ul>
     </div>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="numbers">
+      Belgium and Spain combined or something 
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="details">
+      Details
+    </div>
+    <div className="contactForm">
+      <form>
+        <label>Name:</label>
+        <label>E-mail:</label>
+        <label>Message:</label>
+      </form>
+
+    </div>
   </Layout>
 )
 
