@@ -1,18 +1,49 @@
 .landingPage{
-    min-height: 70vh;
+    min-height: 91vh;
     background: pink;
     padding: 5vh 2rem;
 }
 
+.landingPage h1  {
+    font-weight: 700;
+}
+
+.details {
+    background: lightblue;
+    min-height: 50vh;
+    padding: 5vh 2rem;
+}
+
+.contactUs{
+    margin: auto;
+    width: 50%;
+}
+
+input, textarea, label{
+    width: 100%;
+}
 header {
+    display: flex;
     background: #FFF;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+main {
+    margin-top: 4em;
 }
 
 .logo img {
     width: 5rem;
     display: block;
+    margin: 0.5em;
 }
 
 nav ul li a{
     text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
 }

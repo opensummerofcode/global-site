@@ -3,26 +3,19 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/logo-osoc-color.svg"
 const Header = ({ siteTitle, menuLinks }) => (
-  <header>
-    <div
-      style={{
-        display: 'flex',
-        flex: 1,
-        margin: `0`
-        
-      }}
-    >
+  <header style={{display: "flex"}}>
+    <div style={{flexGrow: 1}}>
         <Link
           to="/"
           className="logo"
         >
           <img src={Logo} alt="open summer of code logo, very abstract, fun but professional" / > 
         </Link>
+</div>
 
-
-      <div>
+    <div style={{flexGrow: 3}}>
           <nav>
-            <ul style={{ display: "flex", flex: 1 }}>
+            <ul>
               {menuLinks.map(link => (
                 <li
                   key={link.name}
@@ -39,7 +32,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             </ul>
           </nav>
         </div>
-    </div>
+
   </header>
 )
 
