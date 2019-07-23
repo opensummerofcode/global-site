@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/logo-osoc-color.svg"
 const Header = ({ siteTitle, menuLinks }) => (
-  <header style={{display: "flex"}}>
+  <header style={{display: "flex",  justifyContent: "space-between"}}>
     <div style={{flexGrow: 1}}>
         <Link
           to="/"
@@ -13,23 +13,13 @@ const Header = ({ siteTitle, menuLinks }) => (
         </Link>
 </div>
 
-    <div style={{flexGrow: 3}}>
+    <div className="flex-container">
           <nav>
             <ul>
-              {menuLinks.map(link => (
-                <li
-                  key={link.name}
-                  style={{
-                    listStyleType: `none`,
-                    padding: `1rem`,
-                  }}
-                >
-                  <Link style={{ color: `BLACK` }} to={link.link}>
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <li><a target="_blank" href="https://osoc.be">Belgium</a></li>
+              <li><a target="_blank" href="https://summerofcode.es/">Spain</a></li>
+              <li><a className="button-ding" target="_blank" href="https://summerofcode.es/">Inline Button</a></li>
+                    </ul>
           </nav>
         </div>
 

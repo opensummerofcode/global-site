@@ -1,0 +1,141 @@
+.landingPage{
+    min-height: 91vh;
+    background: darkorchid;
+    padding: 5vh 2rem;
+}
+
+.landingPage h1  {
+    font-weight: 700;
+    font-family: Montserrat;    
+    font-size: 2rem;
+    max-width: 36rem;
+}
+
+.details {
+    background: lightblue;
+    min-height: 50vh;
+    padding: 5vh 2rem;
+}
+
+.contactUs{
+    margin: auto;
+    width: 50%;
+}
+
+.detail-card {
+    border: 1px solid black;
+}
+input, textarea, label{
+    width: 100%;
+}
+header {
+    display: flex;
+    background: #FFF;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+main {
+    margin-top: 4em;
+}
+
+.logo img {
+    width: 5rem;
+    display: block;
+    margin: 0.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 700;
+    font-family: Montserrat;    
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container .detail-card {
+    width: 50%; 
+    margin: 0 2rem 0 0;
+    padding: 0.5rem;
+}
+
+ul {
+    margin: 0;
+
+}
+
+.video {
+    background-color: #f2f2f4;
+    color: #141338;
+    align-items: center;
+}
+
+.video div iframe {
+    margin: 0;
+}
+
+.video div p {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: "Montserrat";
+    line-height: 1.6;
+text-rendering: optimizeLegibility;
+}
+
+.numbers {
+    padding: 5vh 2rem;
+}
+
+.numbers h2 {
+    margin: 1rem 0;
+}
+.number-wrapper {
+    text-align: center;
+}
+
+.number-wrapper div {
+    text-transform: uppercase;
+    font-family: Montserrat !important  ;
+}
+
+h1, h2 {
+    font-family: Montserrat !important;
+}
+
+.color-number {
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+
+.header-numbers {
+    text-align: center;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+.header-numbers a{
+    
+    margin: 1rem 0;
+    line-height: 1.2;
+    font-family: Montserrat !important;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #dbdbdd;
+}
