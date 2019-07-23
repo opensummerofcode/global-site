@@ -1,7 +1,11 @@
+* {
+    font-family: Montserrat;   
+}
 .landingPage{
     min-height: 91vh;
     background: darkorchid;
-    padding: 5vh 2rem;
+    padding: 5vh 4rem;
+    margin-top: 90px;
 }
 
 .landingPage h1  {
@@ -91,7 +95,6 @@ ul {
 
 .video div p {
     font-size: 1rem;
-    padding: 1rem;
     font-family: "Montserrat";
     line-height: 1.6;
 text-rendering: optimizeLegibility;
@@ -138,4 +141,48 @@ h1, h2 {
 
 .footer {
     background-color: #dbdbdd;
+}
+
+nav ul li .button {
+    background-color: #1de1ae; 
+    color: #0a0839;
+    line-height: 1;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+}
+
+nav ul li .button:hover {
+    background-color: #0a0839; 
+    color: #1de1ae;
+    line-height: 1;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+}
+
+.button {
+    text-transform: uppercase;
+}
+
+.video .button {
+    background-color: #0a0839;
+    font-weight: 600;
+}
+
+.button.extern {
+    font-weight: 700;
+    color: #0a0839;
+    background-color: white;
+    border: 1px solid #0a0839;
+}
+
+
+.button.extern:hover {
+    font-weight: 700;
+    color: #FFF;
+    background-color: #0a0839;
+    border: 1px solid #FFF;
 }

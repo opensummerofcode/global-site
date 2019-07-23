@@ -18,7 +18,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             <ul>
               <li><a target="_blank" href="https://osoc.be">Belgium</a></li>
               <li><a target="_blank" href="https://summerofcode.es/">Spain</a></li>
-              <li><a className="button-ding" target="_blank" href="https://summerofcode.es/">Inline Button</a></li>
+              <li><a className="button" target="_blank" href="https://summerofcode.es/">Create your own edition</a></li>
                     </ul>
           </nav>
         </div>

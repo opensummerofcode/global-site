@@ -21,7 +21,7 @@ const IndexPage = () => (
 
       <div>
       <p>A programme that provides students the <strong>training</strong>, <strong>network</strong> and <strong>support</strong> necessary to transform <strong>open innovation projects</strong> into powerful real-world services.</p>
-      <a href="/">Get in touch -- we have a set up kit</a>
+      <a className="button" href="/">Get in touch -- we have a set up kit</a>
       </div>
       <div>
     <iframe src="https://player.vimeo.com/video/188284459" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -32,7 +32,7 @@ const IndexPage = () => (
       <h1>Some numbers</h1>
       <div className="flex-container header-numbers">
       <h2>Belgium</h2>
-      <a href="https://osoc.be">Explore oSoc Belgium</a>
+      <a className="button extern" href="https://osoc.be">Explore oSoc Belgium</a>
       </div>  
 
         <div className="grid-x flex-container number-wrapper">
@@ -47,7 +47,7 @@ const IndexPage = () => (
         
         <div className="flex-container header-numbers">
       <h2>Spain</h2> 
-      <a href="https://osoc.be">Explore oSoc Spain</a>
+      <a className="button extern"  href="https://osoc.be">Explore oSoc Spain</a>
       </div>
       <div className="grid-x flex-container number-wrapper">
         
@@ -61,11 +61,11 @@ const IndexPage = () => (
         </div>
     </div>
     
-    <div className="contactUs">
+    {/* <div className="contactUs">
       <h1>Contact us!</h1>
       <p>Whether you have any questions, are interested in starting your own chapter or just want to say hi... Just send us a message!</p>
       <ContactForm/>
-    </div>
+    </div> */}
 
     <div className="footer">
       CONTENT
