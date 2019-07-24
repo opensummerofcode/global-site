@@ -4,7 +4,7 @@ import React from "react"
 import Logo from "../images/logo-osoc-color.svg"
 const Header = ({ siteTitle, menuLinks }) => (
   <header style={{display: "flex",  justifyContent: "space-between"}}>
-    <div style={{flexGrow: 1}}>
+    <div >
         <Link
           to="/"
           className="logo"
@@ -16,8 +16,8 @@ const Header = ({ siteTitle, menuLinks }) => (
     <div className="flex-container">
           <nav>
             <ul>
-              <li><a target="_blank" href="https://osoc.be">Belgium</a></li>
-              <li><a target="_blank" href="https://summerofcode.es/">Spain</a></li>
+              <li><a target="_blank" href="https://osoc.be">oSoc Belgium</a></li>
+              <li><a target="_blank" href="https://summerofcode.es/">oSoc Spain</a></li>
               <li><a className="button" target="_blank" href="https://summerofcode.es/">Create your own edition</a></li>
                     </ul>
           </nav>
