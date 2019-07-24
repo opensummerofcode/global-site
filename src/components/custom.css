@@ -1,3 +1,7 @@
+:root {
+    --osoc-red:  #f14a3b;
+  }
+
 * {
     font-family: Montserrat;   
 }
@@ -36,8 +40,9 @@ header {
     display: flex;
     background: #FFF;
     position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -65,11 +70,12 @@ nav ul li {
 nav ul li a {
     color: black;
     font-weight: 700;
-    font-family: Montserrat;    
+    font-family: "Montserrat";    
 }
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container .detail-card {
@@ -79,7 +85,8 @@ nav ul li a {
 }
 
 ul {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0;
 
 }
 
@@ -167,6 +174,9 @@ nav ul li .button:hover {
     text-transform: uppercase;
 }
 
+.video {
+    padding: 5vh 4rem;
+}
 .video .button {
     background-color: #0a0839;
     font-weight: 600;
@@ -185,4 +195,37 @@ nav ul li .button:hover {
     color: #FFF;
     background-color: #0a0839;
     border: 1px solid #FFF;
+}
+
+footer {
+    background-color: #dbdbdd;
+    padding: 3rem 0 3rem;
+}
+footer a {
+    color:#1e1d36;
+    text-decoration: none;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+
+footer a:hover {
+
+    color:var(--osoc-red);
+    text-decoration: none;
+}
+
+.grid-padding-x > .cell {
+    padding-right: 0.58824rem;
+    padding-left: 0.58824rem; }
+    @media print, screen and (min-width: 40em) {
+      .grid-padding-x > .cell {
+        /*! padding-right: 1.47059rem; */
+        padding-left: 1.47059rem; 
+    } }
+
+.flex-child.video {
+    flex: 50%;
 }
