@@ -7,7 +7,9 @@
 }
 .landingPage{
     min-height: 91vh;
-    background: darkorchid;
+    background-image: url("../images/crest-bg.svg");
+    background-position: right 10px top;
+    background-repeat: no-repeat;
     padding: 5vh 4rem;
     margin-top: 90px;
 }
@@ -43,6 +45,8 @@ header {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999999;
+    height: auto;
 }
 
 main {
@@ -69,7 +73,6 @@ nav ul li {
 
 nav ul li a {
     color: black;
-    font-weight: 700;
     font-family: "Montserrat";    
 }
 
@@ -158,6 +161,8 @@ nav ul li .button {
     display: block;
     padding: 0.7rem 1rem;
     font-weight: 700;
+    font-size: 0.9rem;
+    font: "Montserrat, sans-serif";
 }
 
 nav ul li .button:hover {
@@ -174,9 +179,6 @@ nav ul li .button:hover {
     text-transform: uppercase;
 }
 
-.video {
-    padding: 5vh 4rem;
-}
 .video .button {
     background-color: #0a0839;
     font-weight: 600;
@@ -228,4 +230,17 @@ footer a:hover {
 
 .flex-child.video {
     flex: 50%;
+}
+
+.flex-child.text {
+    flex: 50%;
+    padding: 1rem;
+}
+
+.cell {
+    max-width: 100%;
+}
+
+.contributers  a {
+    text-decoration: underline;
 }

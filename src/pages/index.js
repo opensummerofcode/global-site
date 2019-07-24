@@ -13,19 +13,24 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="landingPage">
-      <h1>Innovative open source projects, made by incredibly motivated students, coaches & organisations... on global scale!</h1>
+      <h1>Innovative open source projects, made by incredibly motivated students, coaches & organisations... all over the world!</h1>
       <HeroAnimation />
     </div>
 
     <div className="video flex-container">
-      <div className="flex-child video">
+      <div className="flex-child text">
       <p>A programme that provides students the <strong>training</strong>, <strong>network</strong> and <strong>support</strong> necessary to transform <strong>open innovation projects</strong> into powerful real-world services for real <strong>companies</strong>.</p>
       <a className="button" href="/">Get in touch -- we have a set up kit</a>
       </div>
-      <div className="">
-    <iframe src="https://player.vimeo.com/video/188284459" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      
+      <div className="flex-child video">
+      <div style={{padding: "56.25% 0 0 0", position:"relative"}}>
+        <iframe src="https://player.vimeo.com/video/188284459" style={{position:"absolute", top: "0", left:"0", width:"100%", height:"100%" }} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
     </div>
-    </div>
+
 
     <div className="numbers">
       <h1>Some numbers</h1>
@@ -65,6 +70,7 @@ const IndexPage = () => (
       <p>Whether you have any questions, are interested in starting your own chapter or just want to say hi... Just send us a message!</p>
       <ContactForm/>
     </div> */}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfclUjrf-pxhE37RXBvUPoN-A6NDpX-oBcxlkjEk3DgLo1tjA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <Footer />
   </Layout>
 )
