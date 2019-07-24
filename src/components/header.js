@@ -18,7 +18,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             <ul>
               <li><a target="_blank" href="https://osoc.be">oSoc Belgium</a></li>
               <li><a target="_blank" href="https://summerofcode.es/">oSoc Spain</a></li>
-              <li><a className="button" target="_blank" href="https://summerofcode.es/">Create your own edition</a></li>
+              <li><a className="button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfclUjrf-pxhE37RXBvUPoN-A6NDpX-oBcxlkjEk3DgLo1tjA/viewform">Create your own edition</a></li>
                     </ul>
           </nav>
         </div>
