@@ -187,7 +187,7 @@ nav ul li .button:hover {
     font-weight: 600;
 }
 
-.button.extern {
+.button.extern:hover {
     font-weight: 700;
     color: #0a0839;
     background-color: white;
@@ -195,7 +195,14 @@ nav ul li .button:hover {
 }
 
 
-.button.extern:hover {
+.button.extern:active {
+    font-weight: 700;
+    color: #0a0839;
+    background-color: white;
+    border: 1px solid #0a0839;
+}
+
+.button.extern {
     font-weight: 700;
     color: #FFF;
     background-color: #0a0839;

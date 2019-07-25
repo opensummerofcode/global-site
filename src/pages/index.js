@@ -20,7 +20,7 @@ const IndexPage = () => (
     <div className="video flex-container">
       <div className="flex-child text">
       <p>A programme that provides students the <strong>training</strong>, <strong>network</strong> and <strong>support</strong> necessary to transform <strong>open innovation projects</strong> into powerful real-world services for real <strong>companies</strong>.</p>
-      <a className="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfclUjrf-pxhE37RXBvUPoN-A6NDpX-oBcxlkjEk3DgLo1tjA/viewform" target="_blank">Let's get in touch</a>
+      <a className="button extern" href="https://docs.google.com/forms/d/e/1FAIpQLSfclUjrf-pxhE37RXBvUPoN-A6NDpX-oBcxlkjEk3DgLo1tjA/viewform" target="_blank">Let's get in touch</a>
       </div>
       
       <div className="flex-child video">
