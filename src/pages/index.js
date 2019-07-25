@@ -73,7 +73,7 @@ const IndexPage = () => (
       <div className="medium-10 large-10 cell">
       <h1>Feel free to message us!</h1>
       <p>Whether you want to organize your own open Summer of code edition, have suggestions, want to help or just want to say hi... Feel free to message us!</p>
-      <a className="button extern" href="https://docs.google.com/forms/d/e/1FAIpQLSfclUjrf-pxhE37RXBvUPoN-A6NDpX-oBcxlkjEk3DgLo1tjA/viewform" target="_blank">Message us</a>
+      <a className="button extern" href="https://docs.google.com/forms/d/1sNNJ1nrYxE8VQNYjlJvE1vBCb6V1r55SizyYDbteLcQ/viewform" target="_blank">Message us</a>
     </div>
     </div>
     <Footer />
